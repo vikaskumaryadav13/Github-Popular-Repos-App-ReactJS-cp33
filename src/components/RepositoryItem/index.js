@@ -3,8 +3,13 @@ import './index.css'
 
 const RepositoryItem = props => {
   const {repositoryDetails} = props
-  const {name, imageUrl, starsCount, forksCount, issuesCount} =
-    repositoryDetails
+  const {
+    name, 
+    imageUrl, 
+    starsCount, 
+    forksCount, 
+    issuesCount,
+  } = repositoryDetails
 
   return (
     <li className="repository-item">
